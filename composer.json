@@ -1,0 +1,22 @@
+{
+  "name": "goma/goma-json-lib",
+  "description": "Goma JSON Lib provides Exception handling for JSON encode and decode. It has a workaround for non-utf8 values.",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Goma Team",
+      "email": "team@goma-cms.org"
+    }
+  ],
+  "license": "LGPL-3.0",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.5.0",
+    "goma/goma-test-core": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Goma\\JSON\\": "src/"
+    }
+  }
+}
