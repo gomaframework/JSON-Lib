@@ -4,8 +4,6 @@ namespace Goma\JSON;
 
 use Throwable;
 
-defined("IN_GOMA") OR die();
-
 /**
  * JSONException is the thrown error in case of an error of JSON class.
  *

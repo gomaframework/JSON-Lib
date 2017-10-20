@@ -2,8 +2,6 @@
 
 namespace Goma\JSON;
 
-defined("IN_GOMA") OR die();
-
 /**
  * JSON class provides encoding and decoding.
  * It throws JSONException in case of an error.

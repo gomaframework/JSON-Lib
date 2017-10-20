@@ -4,8 +4,6 @@ namespace Goma\JSON\Test;
 
 use Goma\JSON\JSON;
 
-defined("IN_GOMA") OR die();
-
 /**
  * Tests JSON class.
  *
