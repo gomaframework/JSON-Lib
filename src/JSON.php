@@ -44,6 +44,7 @@ class JSON
     /**
      * decodes a value from json.
      * Throws exception in case of an error.
+     * Parameters are the same as of json_decode ({@link http://php.net/manual/de/function.json-decode.php})
      *
      * @param string $json
      * @param bool $assoc
